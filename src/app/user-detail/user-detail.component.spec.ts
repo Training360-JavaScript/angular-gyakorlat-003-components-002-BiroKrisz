@@ -47,7 +47,7 @@ describe('UserDetailComponent', () => {
     });
   });
 
-  it('onDelete should be called', async () => {
+  it('onSelectUser should be called', async () => {
     spyOn(component, 'onDelete');
 
     component.user = mockUsers[2];
